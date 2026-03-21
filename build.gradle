@@ -3,9 +3,9 @@ org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
 android.useAndroidX=true
 android.enableJetifier=true
 
-# IMPORTANT FIX
+// IMPORTANT FIX
 android.enableAapt2=false
 
-# Performance
+// Performance
 org.gradle.parallel=true
 org.gradle.caching=true
