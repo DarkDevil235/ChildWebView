@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.guardian.childapp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "Aira.App"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    
+    // Explicitly disable data binding at the android level
+    dataBinding {
+        enabled = false
+    }
+    
+    // Disable build features that might trigger data binding
+    buildFeatures {
+        dataBinding = false
+        viewBinding = false // Disable view binding too for now
+    }
+}
+
+dependencies {
+    // Core AndroidX - using stable versions
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    
+    // Firebase - using individual stable versions instead of BOM to avoid potential conflicts
+    implementation 'com.google.firebase:firebase-database:20.2.2'
+    implementation 'com.google.firebase:firebase-auth:22.1.1'
+    implementation 'com.google.firebase:firebase-messaging:23.2.1'
+}

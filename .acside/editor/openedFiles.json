@@ -1,0 +1,80 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/ChildWebView/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/ChildWebView/app/src/main/res/xml/backup_rules.xml",
+      "selection": {
+        "end": {
+          "column": 22,
+          "index": 127,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/ChildWebView/app/src/main/res/xml/data_extraction_rules.xml",
+      "selection": {
+        "end": {
+          "column": 7,
+          "index": 157,
+          "line": 5
+        },
+        "start": {
+          "column": 7,
+          "index": 157,
+          "line": 5
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/ChildWebView/gradlew",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/ChildWebView/gradle.properties",
+      "selection": {
+        "end": {
+          "column": 24,
+          "index": 577,
+          "line": 20
+        },
+        "start": {
+          "column": 24,
+          "index": 577,
+          "line": 20
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/ChildWebView/gradle.properties"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accentColor">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="lightGray">#F5F5F5</color>
+    <color name="primaryColor">#2196F3</color>
+    <color name="primaryDarkColor">#1976D2</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Guardian Child</string>
+    <string name="connected">Connected</string>
+    <string name="error">Error</string>
+    <string name="firebase_database_url" translatable="false">https://airavat-889e5-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">469298349196</string>
+    <string name="google_api_key" translatable="false">AIzaSyCz0m8HmoWz_s9gu-6zEW01HN_MYFZhqX0</string>
+    <string name="google_app_id" translatable="false">1:469298349196:android:57290964327ede2f2ca7a9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCz0m8HmoWz_s9gu-6zEW01HN_MYFZhqX0</string>
+    <string name="google_storage_bucket" translatable="false">airavat-889e5.firebasestorage.app</string>
+    <string name="loading">Loading...</string>
+    <string name="project_id" translatable="false">airavat-889e5</string>
+    <string name="retry">Retry</string>
+    <style name="Theme.ChildWebView" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:windowBackground">@color/lightGray</item>
+    </style>
+</resources>

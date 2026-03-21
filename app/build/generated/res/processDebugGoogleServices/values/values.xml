@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://airavat-889e5-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">469298349196</string>
+    <string name="google_api_key" translatable="false">AIzaSyCz0m8HmoWz_s9gu-6zEW01HN_MYFZhqX0</string>
+    <string name="google_app_id" translatable="false">1:469298349196:android:57290964327ede2f2ca7a9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCz0m8HmoWz_s9gu-6zEW01HN_MYFZhqX0</string>
+    <string name="google_storage_bucket" translatable="false">airavat-889e5.firebasestorage.app</string>
+    <string name="project_id" translatable="false">airavat-889e5</string>
+</resources>
